@@ -25,6 +25,9 @@ p{
 span, li, td, th{
     font-size: 1.6em;
 }
+code{
+    white-space: break-spaces;
+}
 .center{
     text-align: center;
 }
