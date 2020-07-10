@@ -1,0 +1,91 @@
+@import URL(https://yujahua.github.io/Yujahua.github.assets/cssicon/warning.css);
+@import URL(./theme1.media.css);
+.Theme_shadowcloth {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 990;
+    background-color: #ffffff;
+}
+.Theme_shadowcloth.Theme_fade {
+    opacity: 0;
+}
+.Theme_shadowcloth.Theme_fade.in{
+    opacity: 0.3;
+}
+.Theme_dialog {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+.Theme_fade {
+    opacity: 0;
+    transition: opacity 0.15s linear;
+}
+.Theme_fade.in  {
+    opacity: 1;
+}
+.Theme_dialog-bg {
+    position: relative;
+    z-index: 1001;
+    width: 40em;
+    max-width: 80em;
+    margin: 3em auto;
+}
+.Theme_fade .Theme_dialog-bg {
+    transition: transform 0.3s ease-out;
+}
+.Theme_fade.in .Theme_dialog-bg {
+    transform: translate(0, 0);
+}
+.Theme_dialog-content {
+    position: relative;
+    background-color: #ffffff;
+}
+.Theme_dialog-shadow {
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+.Theme_dialog-header {
+    min-height: 1.5em;
+    padding: 1.5em;
+    border-bottom: 0.1em solid #e5e5e5;
+}
+.Theme_dialog-body {
+    position: relative;
+    padding: 2em;
+}
+.Theme_dialog-footer {
+    border-top: 0.1em solid #e5e5e5;
+    padding: 2em;
+    text-align: right;
+}
+.Theme_btn {
+    border-radius: 0;
+    padding: 0.8em 1.6em;
+    height: 3.2em;
+}
+.Theme_btn-primary{
+    color: #fff;
+    border: 1px solid #0070CC;
+    background-color: #0070CC;
+}
+.Theme_break-all{
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+.Theme_vertical-align-middle {
+    vertical-align: middle;
+}
+.Theme_warning{
+    color: #ffc440;
+}
+.Theme_waring:hover{
+    color: #F90 !important;
+}

@@ -29,6 +29,7 @@ header a.box{
     text-decoration: none;
     display: inline-block;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    margin-top: 1em;
 }
 header a.box + a.box{
     margin-left: 1.5em;
@@ -40,8 +41,10 @@ header a.box:hover{
     border-color: rgba(255,255,255,0.3);
 }
 .main{
-    margin: 0 20em;
-    padding: 3em 10em;
+    /* margin: 0 20em; */
+    margin: 0 3%;
+    /* padding: 3em 10em; */
+    padding: 3% 9%;
     color: #606c71
 }
 .main h1, .main h2, .main h3, .main h4, .main h5, .main h6{
@@ -85,8 +88,10 @@ header a.box:hover{
     font-weight: bold;
 }
 footer{
-    margin: 0 20em;
-    padding: 3em 10em;
+    /* margin: 0 20em; */
+    margin: 0 3%;
+    /* padding: 3em 10em; */
+    padding: 3% 9%;;
     color: #586069;
 }
 .row{
@@ -124,5 +129,8 @@ footer .flex{
 }
 footer ul, .footer ul li{
     list-style: none;
+}
+.overflow-auto{
+ overflow: auto;
 }
 

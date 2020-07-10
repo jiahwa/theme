@@ -1,0 +1,5 @@
+@media screen and (max-width:375px) {
+    header a.box + a.box{
+        margin-left: 0;
+    }
+}
