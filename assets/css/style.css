@@ -31,9 +31,16 @@ code{
 .center{
     text-align: center;
 }
-.url{
-    font-style: italic;
+.url {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding: 20px 0 60px;
+}
+.url:hover {
     color: #42b983;
+    text-decoration: underline;
 }
 .glasses{
     filter: blur(10em);
@@ -50,8 +57,21 @@ code{
 }
 .bgi_wood h3{
     color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
 .bgi_wood .h3_indent{
     text-indent: 2em;
+}
+.bgi_wood img {
+    width: 300px;
+}
+.themeItems li {
+    margin: 0;
+}
+
+.white {
+    color: #ffffff;
+}
+.text-left {
+    text-align: left;
 }
