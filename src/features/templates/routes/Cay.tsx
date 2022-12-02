@@ -1,8 +1,7 @@
 import React from "react";
-import "@/assets/css/style.css";
-import "@/assets/css/theme1.css";
-import "@/assets/css/theme1.dialog.css";
-function Cay() {
+import "../assets/css/theme1.css";
+import "../assets/css/theme1.dialog.css";
+export const Cay = () => {
   const Sure = () => {
     const Theme_dialog = document.getElementsByClassName(
       "Theme_dialog"
@@ -225,7 +224,7 @@ function Cay() {
           </ul>
           <a className="homepage" href="#">
             <img
-              src="../assets/img/theme_short_cay.png"
+              src="@/assets/img/theme_short_cay.png"
               width="40em"
               height="40em"
             />
@@ -268,5 +267,4 @@ function Cay() {
       </div>
     </div>
   );
-}
-export default Cay;
+};

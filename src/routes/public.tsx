@@ -1,0 +1,16 @@
+import React from "react";
+import { lazyImport } from "@/utils/lazyImport";
+import { TemplateRoutes } from "@/features/templates";
+
+const { AuthRoutes } = lazyImport(() => import("@/features/auth"), "AuthRoutes");
+
+export const publicRoutes = [
+  {
+    path: "/auth/*",
+    element: <AuthRoutes />,
+  },
+  {
+    path: "/temp/*",
+    element: <TemplateRoutes />
+  }
+];

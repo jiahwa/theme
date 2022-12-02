@@ -1,4 +1,4 @@
-@import URL(https://yujahua.github.io/assets/cssicon/warning.css);
+@import URL(@/assets/cssicon/warning.css);
 @import URL(./theme1.media.css);
 .Theme_shadowcloth {
     position: fixed;

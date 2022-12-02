@@ -1,0 +1,55 @@
+/* defalut: 圆形 */
+.body {
+    font-size: 62.5%;
+}
+div.warning {
+    display: inline-block;
+}
+.warning {
+    width: 3.2em;
+    height: 3.2em;
+
+    border-radius: 5em;
+    position: relative;
+}
+.warning::before {
+    content: '';
+    position: absolute;
+    width: 0.3em;
+    height: 70%;
+    background: #fff;
+    right: 30%;
+    transform: rotate(45deg) translateY(30%);
+    display: block;
+}
+.warning::after {
+    content: '';
+    position: absolute;
+    width: 0.3em;
+    height: 70%;
+    background: #fff;
+    right: 60%;
+    transform: rotate(-45deg) translateY(30%);
+    display: block;
+}
+.orange{
+    background-color: #ffc440;
+}
+.hover.orange:hover{
+    background-color: #ffb000;
+}
+.font-size-half-half-half{
+    font-size: 0.125em;
+}
+.font-size-half-half{
+    font-size: 0.25em;
+}
+.font-size-half{
+    font-size: 0.5em;
+}
+.font-size-2{
+    font-size: 2em;
+}
+.font-size-3{
+    font-size: 3em;
+}
